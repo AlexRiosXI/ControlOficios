@@ -1,0 +1,149 @@
+.home {
+  height: 100vh;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 50%,
+    $gradient-gray 100%
+  );
+  display: flex;
+  gap: 40px;
+  .nav-bar {
+    width: 20%;
+    position: relative;
+    color: white;
+    height: 100%;
+    border-radius: 20px 20px 40px 40px;
+    background-color: $dashboard-dark;
+
+    .notificaciones {
+      position: absolute;
+      gap: 2px;
+      top: 20px;
+
+      right: 20px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover{
+        cursor: pointer;
+        
+      }
+      .p {
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        height: 15px;
+        font-size: 12px;
+        width: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .icon {
+        width: 17px;
+        height: 17px;
+      }
+    }
+    .profile-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      h2 {
+        font-size: 20px;
+        font-family: $raleway;
+      }
+      height: 35%;
+      .img-container {
+        width: 65px;
+        height: 65px;
+        background-color: white;
+        border-radius: 50%;
+      }
+    }
+
+    .menu {
+      height: 65%;
+      background-color: $dashboard-light;
+      border-radius: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 50px 0px;
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 60%;
+        width: 70%;
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .dashboard {
+    width: 79%;
+    .titulo {
+      height: 30%;
+      display: flex;
+      align-items: center;
+      padding-left: 30px;
+      width: 95%;
+      justify-content: space-between;
+    }
+
+    .grid {
+      width: 90%;
+      height: 70%;
+      padding-left: 30px;
+      display: flex;
+      gap: 30px;
+      .item {
+        width: 200px;
+        height: 200px;
+        background-color: $morado;
+        border-radius: 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 60px;
+        align-items: center;
+        gap: 10px;
+        .icono {
+          width: 40px;
+          height: 40px;
+        }
+        p {
+          font-family: $roboto;
+          font-size: 17px;
+          width: 80%;
+          font-weight: 600;
+          text-align: center;
+        }
+        &:hover {
+          background-color: $morado-hover;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-small-desktop) {
+  .home{
+    .dashboard{
+      .titulo{
+        margin-bottom: -30px;
+      }
+      
+    }
+  }
+}

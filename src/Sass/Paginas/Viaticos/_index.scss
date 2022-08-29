@@ -1,0 +1,40 @@
+@import "oficio-comision";
+@import "comprobacionFacturas";
+@import "informeActividades";
+
+.contenedor-tabla{
+    width: 95%;
+    max-height: 70%;
+    background-color: white;
+    border-radius: 20px;
+
+    table{
+        thead{
+            th{
+                width: 25%;
+            }
+        }
+    }
+
+    .paginador{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 10px;
+        gap: 5px;
+        
+        button, p{
+            width: 50px;
+            
+            background-color: $gradient-gray;
+            color: black;
+            justify-content: center;
+            
+            display: flex;
+            align-items: center;
+            height: 30px;
+            border-radius: 0;
+
+        }
+    }
+}

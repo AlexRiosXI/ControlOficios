@@ -1,0 +1,67 @@
+.administrador-usuarios{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 95%;
+    table{
+        width: 100%;
+        thead{
+            tr{
+                th{
+                    width: 26%;
+                }
+                th:nth-of-type(4){
+                    width: 20%;
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    padding: 10px;
+                }
+                td:nth-of-type(4){
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+                    button{
+                        background-color: rgb(76, 185, 162);
+                        color: bl;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal-crear-usuario{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .select-container{
+        width: 100%;
+        select{
+            width: 100%;
+        }
+    }
+    .button-container{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.grid-container-administracion{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    button{
+        padding: 25px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}
