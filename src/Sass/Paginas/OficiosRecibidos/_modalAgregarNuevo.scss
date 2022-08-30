@@ -1,0 +1,62 @@
+.modal {
+  .modal-agregar-nuevo {
+    width: 25%;
+    min-height: 45%;
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      p {
+        margin-top: 8px;
+      }
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  .modal-agregar-destinatarios {
+    min-height: 45%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      p {
+        height: 100%;
+      }
+    }
+  }
+  .mas-destinatarios {
+    min-height: 45%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    button {
+      width: 100%;
+      background-color: $verde;
+      color: black;
+      font-weight: 700;
+      height: 40px;
+      &:hover {
+        background-color: $verde-gover;
+      }
+    }
+    .secondary {
+      background-color: $morado;
+      &:hover {
+        background-color: $morado-hover;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  
+}

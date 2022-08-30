@@ -1,9 +1,11 @@
 import { RecibidosProvider } from "./Context/RecibidosContext";
 import useRecibidos from "./Context/useRecibidos";
+import Destinatarios from "./Destinatarios";
 import ModalAgregarNuevo from "./ModalAgregarNuevo";
+import ModalDestinatarios from "./ModalDestinatarios";
 
 const OficiosRecibidos = () => {
-  const { agregarNuevo, setAgregarNuevo } = useRecibidos();
+  const { agregarNuevo, setAgregarNuevo,modalDestinatarios } = useRecibidos();
   return (
     <div className="dashboard">
       <div className="titulo">
@@ -48,7 +50,8 @@ const OficiosRecibidos = () => {
           </tbody>
         </table>
       </div>
-      {agregarNuevo ? <ModalAgregarNuevo /> : null}
+      
+      {agregarNuevo ? <Destinatarios /> : null}
     </div>
   );
 };
