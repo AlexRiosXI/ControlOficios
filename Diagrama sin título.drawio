@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T23:33:14.605Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/114.0" etag="7v__AAFuyLyYoylwN5cD" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T00:12:58.007Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/114.0" etag="bKfolcsepY19p5evtf3R" version="21.3.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="794" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="YyvZ_zlkMjoyv1E9utrU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YyvZ_zlkMjoyv1E9utrU-0" target="YyvZ_zlkMjoyv1E9utrU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YyvZ_zlkMjoyv1E9utrU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YyvZ_zlkMjoyv1E9utrU-0" target="YyvZ_zlkMjoyv1E9utrU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YyvZ_zlkMjoyv1E9utrU-0" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ingresos Concurrentes&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Ingresos&lt;/li&gt;&lt;li&gt;IdUsuario&lt;br&gt;&lt;/li&gt;&lt;li&gt;IdIngreso&lt;/li&gt;&lt;li&gt;NombreIngreso&lt;/li&gt;&lt;li&gt;MontoIngreso&lt;/li&gt;&lt;li&gt;Preiodicidad&lt;/li&gt;&lt;li&gt;DiaDeIngreso&lt;/li&gt;&lt;li&gt;PeriodoPago&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="40" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YyvZ_zlkMjoyv1E9utrU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YyvZ_zlkMjoyv1E9utrU-1" target="YyvZ_zlkMjoyv1E9utrU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YyvZ_zlkMjoyv1E9utrU-1" value="&lt;div&gt;Tabla Preiodicidad Ingresos&lt;/div&gt;&lt;div&gt;IdPeriodicidadIngreso&lt;/div&gt;&lt;div&gt;Periodiciadad&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;1 - Mensual&lt;/li&gt;&lt;li&gt;2 .- Quincenal&lt;/li&gt;&lt;li&gt;3.- Semanal&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="40" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YyvZ_zlkMjoyv1E9utrU-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ingresos Concurrentes&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Ingreso.- Ese el nombre del ingreso ejemplo: Nomina&lt;br&gt;&lt;/li&gt;&lt;li&gt;IdUsuario.- Id del Propietario de ese ingreso Usuario&lt;br&gt;&lt;/li&gt;&lt;li&gt;IdIngreso: Id para identificarlo Llave Primaria&lt;br&gt;&lt;/li&gt;&lt;li&gt;MontoIngreso Monto por del ingreso&lt;br&gt;&lt;/li&gt;&lt;li&gt;IdPreiodicidadIngreso.- Cada cuanto recibe este ingreso existen (cuantas veces al mes)&lt;br&gt;&lt;/li&gt;&lt;li&gt;DiaDeIngreso.- (Que días te pagan)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-50" y="280" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YyvZ_zlkMjoyv1E9utrU-9" value="&lt;div&gt;Tabla DIasDe Ingresos&lt;/div&gt;&lt;div&gt;IDDiaIngreso&lt;/div&gt;&lt;div&gt;DiaIngreso&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-1 - días calendario&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;0 - Lunes&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1 - Martes&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2 - Miercoles&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3 - Jueves&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4 - Viernes&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;5 - Sabado&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;6 - Domingo&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="250" width="200" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
